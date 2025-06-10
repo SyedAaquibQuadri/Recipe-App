@@ -1,12 +1,52 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🧑‍🍳 Project Title
 
-Currently, two official plugins are available:
+A brief description of what this project does and who it's for
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a React-based Recipe Suggestion App powered by Hugging Face's AI models. Users can input ingredients they have at home, and the app generates a markdown-formatted recipe using a language model. The app uses modern React features like hooks and dynamic API fetching.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🙏 Acknowledgement
+
+1.Scrimba Community and thier useful React Course
+
+2.Special thanks to Hugging Face for providing powerful open-source AI models and APIs.
+
+3.Inspired by the Scrimba AI project tutorials for building practical AI-powered apps.
+
+4.Thanks to the open-source community for helpful tools like react-markdown and Vite.
+
+5.Appreciation to OpenAI’s ChatGPT for guidance throughout development.
+
+
+
+
+## 🚀 Features
+1.Add your ingredients dynamically.
+
+2.Generate recipe suggestions using Hugging Face inference API.
+
+3.Renders AI-generated recipes in Markdown format.
+
+4.Built with React + Vite for fast development.
+## 🛠️ Technologies Used
+
+1.React (with Hooks)
+
+2.Hugging Face Inference API
+
+3.React Markdown (react-markdown)
+
+4.Vite
+
+5.NPM
+
+6.HTML,CSS and JS
+
+## 🧠 How it Works
+
+1.Users input ingredients through a form.
+
+2.The app sends the list to Hugging Face's inference endpoint.
+
+3.The response is parsed and displayed in a formatted markdown component.
